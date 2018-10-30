@@ -7,10 +7,60 @@
 body,html{
   font-size: 1.8rem;
   line-height: 3.2rem;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.2;
 }
 
-.comingsoon{
+.headerwrapper{
   background-color: var(--red);
   width: 100vw;
   height: 100vh;
+  display:flex;
+  justify-content: center;
+}
+
+.comingsoon{
+  margin:auto;
+  color:white;
+  display: grid;
+  grid-template-columns: minmax(300px, 800px);
+  grid-template-rows: repeat(4,auto)
+  max-width: 800px;
+}
+
+.title{
+  justify-self: right;
+  text-align: right;
+}
+
+.title > h1{
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 800;
+  font-size: 9.6rem;
+  line-height: 0.5;
+}
+
+.title > h2{
+  font-family: 'Vollkorn', serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+
+.author{
+  justify-self: right;
+}
+
+.silhouette > img{
+  width:38rem;
+  height:auto;
+}
+
+.author > h2{
+  font-family: 'Vollkorn', serif;
+  font-weight: 400;
+  font-size: 3rem;
 }
