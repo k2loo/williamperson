@@ -67,6 +67,10 @@ body,html{
 }
 
 @media screen and (max-width: 600px) {
+  .title{
+    justify-self: center;
+    text-align: center;
+  }
   .title > h1{
     font-size: 8rem;
   }
@@ -74,9 +78,14 @@ body,html{
     font-size: 2.8rem;
   }
   .silhouette > img{
-    width: 35rem;
+    display: block;
+    margin: auto;
+  }
+  .author{
+    justify-self: center;
+    text-align: center;
   }
   .author > h2{
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
 }
