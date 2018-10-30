@@ -1,0 +1,16 @@
+:root{
+  font-size: 10px;
+  --red: rgba(237, 47, 47, 1);
+  
+}
+
+body,html{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+}
+
+.comingsoon{
+  background-color: var(--red);
+  width: 100vw;
+  height: 100vh;
+}
