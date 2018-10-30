@@ -23,6 +23,7 @@ body,html{
 
 .comingsoon{
   margin:auto;
+  padding:1rem;
   color:white;
   display: grid;
   grid-template-columns: minmax(300px, 800px);
@@ -62,5 +63,20 @@ body,html{
 .author > h2{
   font-family: 'Vollkorn', serif;
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 3.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .title > h1{
+    font-size: 8rem;
+  }
+  .title > h2{
+    font-size: 2.8rem;
+  }
+  .silhouette > img{
+    width: 35rem;
+  }
+  .author > h2{
+    font-size: 3.2rem;
+  }
 }
